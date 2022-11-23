@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap'); 
+
+
+body {
+    font-family: 'Cairo', sans-serif;
+    height: 30px;
+    
+}
+
+
+/* ***** Start Header**** */
+.header{
+    background-color: rgb(92, 192, 185);
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+.header a {
+    float: right;
+    margin-top: 5px;
+}
+
+/* ***** End Header**** */
+
+
+/* ***** Start Slider**** */
+.carousel-indicators li {
+    height: 15px;
+    background-color: rgb(92, 192, 185);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.418);
+    position: absolute;
+    z-index: 1;
+}
+/* ***** End Slider**** */
+
+/* ***** Start Feutures**** */
+.feutures {
+    margin-top: 75px;
+}
+.feutures i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(92, 192, 185);
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+}
+.feutures h3 {
+    display: inline-block;
+    background-color: rgb(92, 192, 185);
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feutures p {
+    color: rgb(82, 81, 81);
+    line-height: 1.8;
+}
+.feutures h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+/* ***** End Feutures**** */
+
+/* ***** Start Our-Team **** */
+.our-team {
+    background-color: #eee;
+    padding: 20px;
+    background-image: url(back1.jpg);
+    border-bottom: 3px solid rgb(92, 192, 185);
+}
+/* ***** End Our-Team **** */
+
+/* ***** Start Statistic **** */
+.statistic {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url(statistic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.statistic .dverlay {
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.294);
+    width: 100%;
+    height: 100%;
+}
+
+.statistic .dverlay h3 {
+    color: white;
+}
+
+.statistic .dverlay p {
+    color: white;
+    font-size: 75px;
+}
+
+/* ***** End Statistic **** */
+
+/* ***** Start Our-Customers **** */
+.our_customers {
+    margin-top: 100px;
+    background-color: #eee;
+    line-height: 180px;
+    background-image: url(back4.jpg);
+    border-bottom: 3px solid rgb(92, 192, 185);
+    color: blue;
+}
+
+/* ***** End Our-Customers **** */
+
+/* ****** Start Recent_Newa ***** */
+.recent_news .btn-danger {
+    background-color: rgb(92, 192, 185);
+    border-color: 3px solid rgb(92, 192, 185);
+}
+
+.recent_news .btn-danger:hover {
+    background-color: rgb(238, 46, 32);
+}
+
+.recent_news .btn-danger:active {
+    background-color: rgb(52, 12, 228);
+}
+
+/* ******** End Recent_News ****** */
+
+
+/* ******* Start Footer ***** */
+footer {
+    background-color: rgb(92, 192, 185);
+    padding-top: 30px;
+    margin-top: 150px;
+}
+footer p {
+    color: white;
+}
+
+footer h2 {
+    color: white;
+}
+footer a {
+    color: white;
+}
+footer a :hover {
+    color: black;
+}
+footer ul li {
+    list-style: none;
+}
+
+/* ****** End Footer ****** */
+
+
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron .blog_info {
+    flex: 2;
+}
+
+
+.jumbotron .blog_image {
+    flex: 1;
+}
+
+.blog_details p {
+    line-height: 2;
+    padding: 10px;
+}
+
+
+.courses img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
